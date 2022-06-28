@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sanaullah Hossain</title>
+</head>
+<body> 
+    <header>
+        <div class="navbar">
+            <img src="images/pics.jpg" alt="Icon">
+            <ul class="navbar__list">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero">
+        <h4>Hi, my name is </h4>
+        <h1 class="big__header name">Sanaullah Hossain.</h1>
+        <h1 class="big__header msg__header">I build things for the web.</h1>
+        <p class="hero__description">
+            I'm a full-stack web developer passionate about creating interactive application and experience on the web
+        </p>
+    </section>
+    <section id="about">
+        <p>Here are few technologies I've been working on recently:</p>
+        <table class="tach__list">
+            <thead>
+               <tr>
+                   <th>Front-End</th>
+                   <th>Language</th>
+                   <th>Framework</th>
+                   <th>Database</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>JavaScript</td>
+                    <td>React</td>
+                    <td>Cassandra</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Java</td>
+                    <td>Spring Boot</td>
+                    <td>Oracle</td>
+                </tr>
+                <tr>
+                    <td>Bootstarp</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contact">
+        <p>If you’d like to chat about a project or just have question, please fill in the form below.</p>
+        <form action="">
+            <div>
+                <label>Name</label>
+                <input type="text" name="first_name">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <label>Message</label>
+            <div>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input type="button" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>

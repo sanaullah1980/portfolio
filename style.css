@@ -1,0 +1,71 @@
+
+body {
+    background-color: rgb(3, 19, 57);
+    color: rgb(161, 184, 201);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 200px;
+}
+
+header {
+    padding: 20px 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid #006Db6;
+    object-fit: cover;
+}
+.navbar__list {
+    display: flex;
+    place-content: space-between;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+#hero > h4 {
+    color: aquamarine;
+}
+
+.name {
+    color: antiquewhite;
+}
+
+.hero__description{
+    width: 40%;
+}
+
+.big__header{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+th, td{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+th, a{
+    color: aqua;
+}
+
+a:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
